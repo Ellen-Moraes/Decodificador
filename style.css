@@ -1,0 +1,232 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+body {
+    background-image: url(arte_2.png);
+}
+
+.logoalura{
+    width: 80px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+    border: none;
+    background-color: transparent;
+}
+
+.input-texto:focus { 
+    border: none;
+    outline: none;
+   }
+
+.mensagem {
+    position: absolute;
+    width: 330px;
+    height: 490px;
+    left: 70%;
+    top: 20px;
+    padding-left: 20px;
+    padding-top: 80px;
+    background-image: url("animacao.gif");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-y: center;
+    background-color: #fdfdfdfa;
+    box-shadow: 0px 24px 32px -8px #0000;
+    border-radius: 30px;
+    border: none;
+    box-shadow: inset -6px -2px 28px -2px #d4cece;
+    }
+
+.mensagem:focus { 
+    border: none;
+    outline: none;
+}
+
+.copiar {
+    position: relative;
+    margin-top: 330px;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(206, 220, 238, 0.226);
+    box-shadow: inset -1px -4px 5px  #494985;
+    color: #242121;
+    padding: 2px 15px 2px 15px;
+    cursor: pointer;
+}
+
+.copiar:active {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
+
+.informacao {
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #242121;
+    text-decoration: underline;
+}
+
+.aviso{
+    width:17px;
+    padding: 10px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: #03489cf1;
+    color:white;
+    font-size: 23px;
+    padding: 2px 15px 2px 15px;
+    border: none;
+    box-shadow: inset -6px -6px 6px  #000066;
+    border-radius: 23px;
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.encriptar:active {
+    transform: scale(0.9);
+    transition-duration: 0.1s;
+}
+
+.desencriptar {
+    background-color: #dee2e7f1;
+    color: #242121;
+    margin-left: 30px;
+    padding: 2px 15px 2px 15px;
+    border: none;
+    box-shadow: inset -6px -6px 6px  #494985;
+    border-radius: 20px;
+    font-size: 23px;
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.desencriptar:active {
+    transform: scale(0.9);
+    transition-duration: 0.1s;
+}
+
+.rodape{
+    line-height: 2%;
+    text-align: center;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 6px 7px 10px rgba(30, 30, 30, 0.651);}
+
+
+@media screen and (max-width:450px) {
+    .input-texto,.logoalura,.mensagem,.botoes, .main{
+        width: auto;
+    }
+
+    .logo {
+        margin: 20px 0;
+        width: 24%;
+    }
+
+    .input-texto{
+        position: absolute;
+        width: 390px;
+        height: 240px;
+        left: 5px;
+        top: 29px;
+    }
+
+    .informacao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        font-size: 20px;
+        width: 330px;
+        height: 1px;
+        left: 15px;
+        top: 320px;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        position: absolute;
+        margin: 0px;
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 430px;
+    }
+
+    .mensagem {
+        flex-direction: column;
+        display: table;
+        align-items: flex-start;
+        top: 510px;
+        margin: 0px 0px 0px 40px;
+        left: 2px;
+        height: 195px;
+        width: 265px;
+        background-size: 110%;
+        background-position: bottom;
+    }
+
+    .copiar {
+        margin-top: 630px;
+        margin-left: 20px;
+    }
+
+}
+    
+@media screen and (max-width:900px){
+    .mensagem{
+        position: absolute;
+        width: 450px;
+        height: 330px;
+        left: 20%;
+        top: 560px;
+        padding-left: 20px;
+        padding-top: 75px;
+        background-size: 450px;
+        background-position-y: center;
+    }
+
+    .botoes{
+        line-height: 80%;
+        margin-right: 15%;
+    }
+
+    .rodape{
+        line-height: 3990%;
+        text-align: center;
+        margin-right: 30px;
+    }
+} 
