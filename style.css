@@ -233,10 +233,11 @@ textarea{
         line-height: 80%;
         margin-right: 15%;
     }
-
+    
     .rodape{
-        line-height: 3990%;
         text-align: center;
         margin-right: 30px;
+        width: 780px;
+        margin-top: 450px;
     }
 } 
