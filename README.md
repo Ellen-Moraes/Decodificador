@@ -9,7 +9,7 @@
 
 ## Qual o propósito desse repositório?
 
-#### A idéia desse projeto, foi de aprimorar minhas habilidades com CSS avançado e javascript através de um decodificador de palavras! 📚
+#### A idéia desse projeto, foi de aprimorar minhas habilidades com JavaScript e CSS avançado através de um decodificador de palavras! 📚
 ## Foram usados HTML5, CSS3 e JavaScript 📃
 
 * Em "DIGITE SEU TEXTO..." escreva a palavra que queira decodificar e clique no botão criptografar e aparecerá a sua mensagem!
